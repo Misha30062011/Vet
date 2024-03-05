@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Jost", sans-serif;
+    font-size: 24px;
 }
 
 h1,
@@ -26,7 +27,8 @@ ul {
     width: 1120px;
 }
 
-/* Шапка сайту */
+/* Header */
+
 .header {
     background-color: #ddf9ff;
     padding: 34px 0;
@@ -49,22 +51,25 @@ ul {
 
 .header-link {
     color: #3a2e2e;
-    font-weight: 700px;
+    font-weight: 700;
 }
 
-/* Головна секція */
+/* Hero section */
 .hero {
-    background-color: #FBFCFF;
+    background-color: #ddf9ff;
+    padding-bottom: 48px;
 }
 
 .hero-container {
     display: flex;
+    align-items: center;
     gap: 57px;
 }
 
 .hero-span {
-    color: #6278B4;
     font-weight: 600;
+    font-size: 24px;
+    color: #6278b4;
 }
 
 .title {
@@ -84,43 +89,49 @@ ul {
 }
 
 .hero-button {
+    border-radius: 30px;
+    background: #6278b4;
     font-weight: 900;
     font-size: 20px;
     line-height: 153%;
     color: #fff;
     padding: 15px 22px;
-    background: #6278b4;
-    border-radius: 30px;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
 }
 
-/* Друга секція */
+/* Second section */
+
 .services {
     background-color: #fbfcff;
     padding-top: 24px;
-    padding-bottom: 52px;
 }
 
 .services-title {
-    font-weight: 600px;
+    font-weight: 600;
     font-size: 48px;
     color: #3a2e2e;
     text-align: center;
+    border-bottom: 4px solid #6278b4;
+    width: 351px;
+    margin: 0 auto 50px;
+    padding-bottom: 18px;
 }
 
-.services-title span{
+.services-title span {
     color: #6278b4;
 }
 
-.services-list{
+.services-list {
     display: flex;
-    flex-wrap: wrap;
-    gap: 90px ;
+    gap: 85px;
+    margin-bottom: 57px;
 }
-.services-item{
+
+.services-item {
     display: flex;
+    flex: 1;
 }
-.services-caption{
+
+.services-caption {
     font-weight: 400;
     font-size: 24px;
     line-height: 154%;
@@ -128,14 +139,88 @@ ul {
     margin-bottom: 24px;
 }
 
-.services-caption span{
+.services-caption span {
     font-weight: 500;
     color: #6278b4;
+    line-height: 153%;
+
 }
 
-.services-text{
+.services-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 153%;
     color: #3a2e2e;
 }
+
+.services-img {
+    width: 49px;
+    height: 49px;
+    margin-right: 12px;
+}
+
+/* Dog section */
+
+.work {
+    background: #ddf9ff;
+    padding: 30px 0;
+}
+
+.work-container {
+    display: flex;
+    gap: 130px;
+    justify-content: space-around;
+}
+
+.work-title {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 153%;
+    color: #6278b4;
+    padding-bottom: 29px;
+    margin: 96px 130px 29px 252px;
+}
+
+.work-text {
+    font-weight: 500;
+    font-size: 20px;
+    color: #3a2e2e;
+}
+/* Футер */
+.footer {
+    background-color: #535353;
+    padding-top: 32px;
+    padding-bottom: 90px;
+}
+.footer-wrap {
+    border-bottom: 2px solid #6278b4;
+    width: 1120px;
+    padding-bottom: 31px;
+}
+.footer-title {
+    text-transform: uppercase;
+    padding-top: 32px;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 32px;
+}
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-item {
+    display: flex;
+    align-items: center;
+}
+.footer-img {
+    padding-right: 22px;
+}
+.footer-link {
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+
+

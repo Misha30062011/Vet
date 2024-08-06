@@ -91,6 +91,7 @@ ul {
 .hero-button {
     border-radius: 30px;
     background: #6278b4;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
     font-weight: 900;
     font-size: 20px;
     line-height: 153%;
@@ -178,13 +179,32 @@ ul {
     line-height: 153%;
     color: #6278b4;
     padding-bottom: 29px;
-    margin: 96px 130px 29px 252px;
 }
-
+.work-wrap {
+    margin-top: 100px;
+}
 .work-text {
     font-weight: 500;
     font-size: 20px;
     color: #3a2e2e;
+}
+/* specialists */
+.specialists-title {
+    font-weight: 600;
+    font-size: 48px;
+    color: #3a2e2e;
+    text-align: center;
+    border-bottom: 4px solid #6278b4;
+    width: 351px;
+    margin: 0 auto 50px;
+    padding-bottom: 18px;
+}
+.span {
+    color: #6278b4;
+}
+.specialists {
+    background-color: #fbfcff;
+    padding-top: 24px;
 }
 /* Футер */
 .footer {
